@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 const MONGODB_URI = process.env.MONGODB_URI;
-const PORT = process.env.PORT || 3005;
+const PORT = Number.parseInt(process.env.PORT) || 3005;
 const server = new ApolloServer({
     typeDefs,
     resolvers,
