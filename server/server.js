@@ -3,7 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
 import { authStuff } from './utils/auth.js';
-import db from './config/connection.js'
+import db from './config/connection.js';
+import path from 'path';
 dotenv.config();
 
 import typeDefs from './schemas/typeDefs.js';
