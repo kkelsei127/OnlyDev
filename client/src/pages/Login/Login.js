@@ -9,6 +9,7 @@ function Login(props) {
     const [formState, setFormState] = useState({ username: '', password: '' });
     const [loginUser, { error, mutationResponse }] = useMutation(LOGIN_USER);
     const username = formState.username
+    console.log("hello")
 
     const handleFormSubmit = async (event) => {
         event.preventDefault();
