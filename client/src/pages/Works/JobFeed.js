@@ -11,7 +11,7 @@ export default function JobFeed () {
     return (
         <div className='bg-slate-200'>
             <Navigation/>
-            <div className="flex flex-col items-center justify-center p-12 bg-slate-200">
+            <div className="flex flex-col items-center justify-center p-2 bg-slate-200">
                <JobPosting posting={data.helpPost}/>
             </div>
             

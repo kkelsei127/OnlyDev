@@ -11,8 +11,8 @@ export default function JobPosting (props) {
         <div className ="bg-slate-200">
             {array ? (array.map((JobPosting) => (
             <div className="flex flex-col items-center justify-center p-12 bg-slate-200">
-                <div className="max-w-xl py-4 px-8 bg-white shadow-lg rounded-lg my-20">
-                    <div className="flex justify-center md:justify-end -mt-16">
+                <div className="max-w-xl py-1 px-8 bg-white shadow-lg rounded-lg my-20">
+                    <div className="flex justify-center md:justify-end -mt-5">
                         <img className="shadow-lg  w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"/>
                     </div>
                     <div>
